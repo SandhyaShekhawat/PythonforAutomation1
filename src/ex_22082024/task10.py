@@ -8,6 +8,9 @@ number=int(input("enter the value of number:\n"))
 if number<0:
     print("factorial is not defined for negative numbers")
 
+elif number==0:
+    print("factorial of 0 is 1")
+
 else:
     factorial=1
 
